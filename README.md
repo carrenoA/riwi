@@ -1,3 +1,0 @@
--Input validation
--Shrink decimals
--Even numbers
