@@ -6,6 +6,7 @@ All data is stored in memory using a list of dictionaries.
 ------------------------------------------------------------------------------------
 
 🚀 Features
+
 *✔ Create a Student*
 
 Allows the user to input a student's:
@@ -51,6 +52,6 @@ It also includes basic validation and clean exit using sys.exit().
 
 * Python installed.
 * Run the program from the terminal with this command:
-python main.py
+*python main.py*
 
 * Use the menu to interact with the system.
