@@ -32,11 +32,17 @@ while True:
         break
 
 # final price of the whole shop
-valor_total = precio * cantidad
+costo_total = precio * cantidad
 
 # ',' is the dividing for thousandth, and we change it to '.'
 # '.' is the dividing for decimals, and we change it to','
 # before it was with USA format, we change it for Latin America format
 print(f"\nProducto: {nombre}\nCantidad: {cantidad}\nPrecio: {f'{precio:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.')} $")
 print("-----------------------------------------------------")
-print(f"El valor total de la compra es: {f'{valor_total:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.')} $")
+print(f"El valor total de la compra es: {f'{costo_total:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.')} $")
+
+
+# SUMMARY
+# The program requests a product name, price, and quantity with proper input validation.
+# It calculates the total cost based on price and quantity and displays a formatted summary
+# of the purchase, including the final amount.
